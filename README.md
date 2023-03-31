@@ -27,7 +27,10 @@ Le présent volet, du cadre de cohérence technique Cloud Pi Native, s’adresse
 
 Ce volet est en lien avec la nouvelle offre proposée par le ministère de l’intérieur Cloud Pi Native. Elle inclut des services mis en cohérence : un orchestrateur DevSecOps à 2 étapes permettant d’accélérer la production et l’homologation continue, une offre d’hébergement kubernetes sécurisée (sécable) et des charts / operators kubernetes communautaires. 
 
-Le lecteur pressé peut aller directement à la revue des exigences qui sont de 2 natures :   **_Primordiales_**, obligatoires dont le non-respect peut entraîner une exclusion administrative dans le cadre d’un marché public et **_Importantes_** qui sont recommandées pour maximiser la performance de la conception et du contexte d’organisation avec l’offre. Les applications peuvent contribuer via un échange préalable, aux fonctionnalités de l’offre directement via un processus d’intégration en continu.
+Le lecteur pressé peut aller directement à la revue des exigences qui sont de 2 natures :
+
+**_Primordiales_**, obligatoires dont le non-respect peut entraîner une exclusion administrative dans le cadre d’un marché public et; 
+**_Importantes_** qui sont recommandées pour maximiser la performance de la conception et du contexte d’organisation avec l’offre. Les applications peuvent contribuer via un échange préalable, aux fonctionnalités de l’offre directement via un processus d’intégration en continu.
 
 Ce cadre, ainsi que l’offre de services mis à disposition, permet de : 
 
