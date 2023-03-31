@@ -29,8 +29,8 @@ Ce volet est en lien avec la nouvelle offre proposée par le ministère de l’i
 
 Le lecteur pressé peut aller directement à la revue des exigences qui sont de 2 natures :
 
-**_Primordiales_**, obligatoires dont le non-respect peut entraîner une exclusion administrative dans le cadre d’un marché public et; 
-**_Importantes_** qui sont recommandées pour maximiser la performance de la conception et du contexte d’organisation avec l’offre. Les applications peuvent contribuer via un échange préalable, aux fonctionnalités de l’offre directement via un processus d’intégration en continu.
+- **_Primordiales_**, obligatoires dont le non-respect peut entraîner une exclusion administrative dans le cadre d’un marché public et; 
+- **_Importantes_** qui sont recommandées pour maximiser la performance de la conception et du contexte d’organisation avec l’offre. Les applications peuvent contribuer via un échange préalable, aux fonctionnalités de l’offre directement via un processus d’intégration en continu.
 
 Ce cadre, ainsi que l’offre de services mis à disposition, permet de : 
 
