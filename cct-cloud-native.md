@@ -24,7 +24,7 @@ Auteur : Ministère de l’Intérieur
 <br>  3.7. Des spécificités à prendre en compte autour de la qualité et de la sécurité des applications
 <br>  3.8. Modèle d’intégration d’une application dans le cadre Cloud Native
 <br>**4**. [**Présentation de l’offre inter-ministèrielle Cloud Pi Native et de ses évolutions pressenties**](#presentation-de-loffre-interministerielle-cloud-pi-native)
-<br>4.1 [Les magasins de composants kubernetes et d’image de base](#magasins-composants)
+<br>[Les magasins de composants kubernetes et d’image de base](#magasins-composants)
 <br>**5**. [**Référentiel d’exigences et modalités d'usage**](#referentiel-exigences)
 <br>**6**. [**Annexes**](#Annexes)
 <br>[Les normes industrielles, institutionnelles applicables](#normes-industrielles)
@@ -400,13 +400,12 @@ Sur les besoins "classiques" de persistance : postgres, redis, mariadb, mongodb,
 
 Sur le cluster de production les operators sont déployés par l’hébergeur car généralement ils requièrent les droits globaux. L’équipe projet doit vérifier les versions disponibles lors de la conception de son projet.
 
-
 ## <a name="#referentiel-exigences"> 5 - Référentiel d’exigences et modalités d'usage</a>
 
 Les exigences du CCT sont classées en 2 niveaux d’exigence (périmètre du Ministère de l’Intérieur) :
 
 * **P - Primordial** : L’exigence est impérative et traitée administrativement.
-* **I - Important** : Exigence prise en compte pour la notation technique de la solution
+* **I - Important**  : Exigence prise en compte pour la notation technique de la solution
 
 Précisions sur le cas de l’exclusion administrative (périmètre du Ministère de l’Intérieur) :
 
@@ -426,9 +425,7 @@ Pour information les exigences sont organisées telles que décrites ci-dessous 
 5. **Infrastructure :** exigences et prérequis concernant l’infrastructure sous-jacente (notamment Kubernetes)
 6. **Services mutualisés Applicatifs et d'Infrastructure :** exigences d’intégration aux services centralisés du Ministère de l’Intérieur, permettant une homogénéisation de la production, un meilleur contrôle et une maîtrise de la dette technique
 
-
 ## <a name="Annexes">6- Annexes</a>
-
 
 ### <a name="normes-industrielles"> Les normes industrielles, institutionnelles applicables</a>
 
@@ -436,16 +433,15 @@ La conception de système d’information dans le cadre de l’État est encadr�
 
 <table>
   <tr>
-   <td>Norme industrielle
-   </td>
-   <td><strong>Kubernetes</strong> : <a href="https://kubernetes.io/fr/">https://kubernetes.io/fr/</a>
+   <td>Norme industrielle</td>
+   <td><strong>Kubernetes</strong> : <a href="https://kubernetes.io/fr/">https://kubernetes.io/fr
+</a>
 <p>
 ArgoCD : <a href="https://argo-cd.readthedocs.io/en/stable/">https://argo-cd.readthedocs.io/en/stable/</a>
    </td>
   </tr>
   <tr>
-   <td>Guides & outils pour la conception
-   </td>
+   <td>Guides & outils pour la conception</td>
    <td><strong>DSFR </strong>: Design System FR. Le système de design de l’État ( qui intègre le RGAA )
 <p>
 <a href="https://www.systeme-de-design.gouv.fr/">https://www.systeme-de-design.gouv.fr/</a>
@@ -461,23 +457,20 @@ ArgoCD : <a href="https://argo-cd.readthedocs.io/en/stable/">https://argo-cd.rea
 <a href="https://schema.gouv.fr">https://schema.gouv.fr</a>
 <p>
 <a href="https://code.gouv.fr">https://code.gouv.fr</a>
-   </td>
+  </td>
   </tr>
   <tr>
-   <td>Cadres de pratiques de conception et de conduite de projet agile
-   </td>
+   <td>Cadres de pratiques de conception et de conduite de projet agile</td>
    <td><a href="https://www.numerique.gouv.fr/actualites/guide-pour-allier-agilite-et-securite-numeriques/">https://www.numerique.gouv.fr/actualites/guide-pour-allier-agilite-et-securite-numeriques/</a>
    </td>
   </tr>
   <tr>
-   <td>Logiciel libre
-   </td>
+   <td>Logiciel libre</td>
    <td>Socle InterMinistériel des Logiciels Libres ( SILL) de par sa fonction de source pour le référentiel de produits du CCT Ministériel : <a href="https://sill.etalab.gouv.fr/fr/software">https://sill.etalab.gouv.fr/fr/software</a>
    </td>
   </tr>
   <tr>
-   <td>Normes interMinistérielles de conception de solutions
-   </td>
+   <td>Normes interMinistérielles de conception de solutions</td>
    <td><strong>Doctrine cloud de l’état :<span style="text-decoration:underline;"> <a href="https://www.legifrance.gouv.fr/circulaire/id/45205">https://www.legifrance.gouv.fr/circulaire/id/45205</a></span></strong>
 <p>
 <strong>Référentiel Général d’Accessibilité pour les Administrations :</strong>
@@ -486,22 +479,20 @@ ArgoCD : <a href="https://argo-cd.readthedocs.io/en/stable/">https://argo-cd.rea
    </td>
   </tr>
   <tr>
-   <td>Référentiel Général de Sécurité, en association avec le règlement européen et l’EIDAS.
-   </td>
+   <td>Référentiel Général de Sécurité, en association avec le règlement européen et l’EIDAS.</td>
    <td><a href="https://www.ssi.gouv.fr/entreprise/reglementation/confiance-numerique/liste-des-documents-constitutifs-du-rgs-v-2-0/">https://www.ssi.gouv.fr/entreprise/reglementation/confiance-numerique/liste-des-documents-constitutifs-du-rgs-v-2-0/</a>
    </td>
   </tr>
   <tr>
-   <td>Référentiel Général de Gestion des Archives
-   </td>
+   <td>Référentiel Général de Gestion des Archives</td>
    <td><a href="https://www.ssi.gouv.fr/entreprise/reglementation/confiance-numerique/le-reglement-eidas/">https://www.ssi.gouv.fr/entreprise/reglementation/confiance-numerique/le-reglement-eidas/</a>
    </td>
   </tr>
   <tr>
-   <td>Référentiel Général de Gestion des Archives
-   </td>
-   <td><a href="https://francearchives.fr/fr/circulaire/R2GA_2013_10">https://francearchives.fr/fr/circulaire/R2GA_2013_10</a>
-   </td> 
+    <td>Référentiel Général de Gestion des Archives</td>
+    <td><a href="https://francearchives.fr/fr/circulaire/R2GA_2013_10">https://francearchives.fr/fr/circulaire/R2GA_2013_10</a>
+    </td> 
+   </tr>
 </table>
 
 ### Liens vers autres contenus utiles(informatif)
@@ -529,4 +520,3 @@ ArgoCD : <a href="https://argo-cd.readthedocs.io/en/stable/">https://argo-cd.rea
 [https://ecoresponsable.numerique.gouv.fr/publications/bonnes-pratiques/bonnes-pratiques/#bonnes-pratiques-services-numeriques](https://ecoresponsable.numerique.gouv.fr/publications/bonnes-pratiques/bonnes-pratiques/#bonnes-pratiques-services-numeriques)
 
 La documentation sur le CloudPI (RIE) :[ https://pi.rie.interieur.gouv.fr/reseau-cas-dusage/](https://pi.rie.interieur.gouv.fr/reseau-cas-dusage/)
-
