@@ -15,21 +15,21 @@ Auteur : Ministère de l’Intérieur
 <br>**1. Guide d’utilisation rapide**
 <br>**2**. [**Le contexte, les enjeux, la vision**](#contexte-enjeux-vision)
 <br>**3**. [**Principes généraux cadre Cloud Native**](#principes-généraux-cadre-cloud-native)
-<br>Les configurations d’hébergement prises en compte
-<br>Gestion des non-conformités, dérogations et contribution
-<br>Le modèle organisationnel, de responsabilité et de collaboration Cloud Native
-<br>Préconisations générales d’architecture et technique
-<br>Des spécificités à prendre en compte sur la création des conteneurs
-<br>Des spécificités à prendre en compte sur la topologie réseau et les ouvertures de flux
-<br>Des spécificités à prendre en compte autour de la qualité et de la sécurité des applications
-<br>Modèle d’intégration d’une application dans le cadre Cloud Native
-<br>**4**. [**Présentation de l’offre inter-ministèrielle Cloud Pi Native et de ses évolutions pressenties**](#presentation-de-loffre-interministérielle-cloud-pi-native)
+<br>  1. Les configurations d’hébergement prises en compte
+<br>  2. Gestion des non-conformités, dérogations et contribution
+<br>  3. Le modèle organisationnel, de responsabilité et de collaboration Cloud Native
+<br>  4. Préconisations générales d’architecture et technique
+<br>  5. Des spécificités à prendre en compte sur la création des conteneurs
+<br>  6. Des spécificités à prendre en compte sur la topologie réseau et les ouvertures de flux
+<br>  7. Des spécificités à prendre en compte autour de la qualité et de la sécurité des applications
+<br>  8. Modèle d’intégration d’une application dans le cadre Cloud Native
+<br>**4**. [**Présentation de l’offre inter-ministèrielle Cloud Pi Native et de ses évolutions pressenties**](#presentation-de-loffre-interministerielle-cloud-pi-native)
 <br>Les magasins de composants kubernetes et d’image de base
 <br>**5**. [**Référentiel d’exigences et modalités d'usage**](#referentiel-exigences)
 <br>**6**. [**Annexes**](#Annexes)
 <br>Les normes industrielles, institutionnelles applicables
 <br>Liens vers autres contenus utiles(informatif)
-<br>Glossaire
+<br>[Glossaire](cct-glossaire.md)
 
 ## <a name="contexte-enjeux-vision">**2**- Le contexte, les enjeux, la vision</a>
 
@@ -530,3 +530,4 @@ ArgoCD : <a href="https://argo-cd.readthedocs.io/en/stable/">https://argo-cd.rea
 [https://ecoresponsable.numerique.gouv.fr/publications/bonnes-pratiques/bonnes-pratiques/#bonnes-pratiques-services-numeriques](https://ecoresponsable.numerique.gouv.fr/publications/bonnes-pratiques/bonnes-pratiques/#bonnes-pratiques-services-numeriques)
 
 La documentation sur le CloudPI (RIE) :[ https://pi.rie.interieur.gouv.fr/reseau-cas-dusage/](https://pi.rie.interieur.gouv.fr/reseau-cas-dusage/)
+
