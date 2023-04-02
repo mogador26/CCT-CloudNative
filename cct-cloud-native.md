@@ -31,7 +31,7 @@ Auteur : Ministère de l’Intérieur
 <br>Liens vers autres contenus utiles(informatif)
 <br>Glossaire
 
-## <a name="contexte-enjeux-vision">**2**. Le contexte, les enjeux, la vision</a>
+## <a name="contexte-enjeux-vision">**2**- Le contexte, les enjeux, la vision</a>
 
 **Audience : ce paragraphe s’adresse à tout acteur considérant l’usage de l’offre Cloud Pi Native du ministère de l’intérieur, il présente les principes fondateurs. Le cloud : des nouvelles possibilités techniques, une collaboration étendue des acteurs pour répondre aux enjeux d’un contexte exigeant, incertain et accéléré.**
 
@@ -435,7 +435,6 @@ Pour information les exigences sont organisées telles que décrites ci-dessous 
 
 La conception de système d’information dans le cadre de l’État est encadrée par un ensemble de recommandations ou règles à mettre en œuvre.  Ces normes sont citées ci-dessous. Le lecteur est invité à vérifier qu’il dispose des versions les plus à jour.
 
-
 <table>
   <tr>
    <td>Norme industrielle
@@ -503,14 +502,7 @@ ArgoCD : <a href="https://argo-cd.readthedocs.io/en/stable/">https://argo-cd.rea
    <td>Référentiel Général de Gestion des Archives
    </td>
    <td><a href="https://francearchives.fr/fr/circulaire/R2GA_2013_10">https://francearchives.fr/fr/circulaire/R2GA_2013_10</a>
-   </td>
-  </tr>
-  <tr>
-   <td>règlement européen sur la protection des données personnelles
-   </td>
-   <td><a href="https://www.cnil.fr/fr/reglement-europeen-protection-donnees">https://www.cnil.fr/fr/reglement-europeen-protection-donnees</a>
-   </td>
-  </tr>
+   </td> 
 </table>
 
 ### Liens vers autres contenus utiles(informatif)
@@ -538,4 +530,3 @@ ArgoCD : <a href="https://argo-cd.readthedocs.io/en/stable/">https://argo-cd.rea
 [https://ecoresponsable.numerique.gouv.fr/publications/bonnes-pratiques/bonnes-pratiques/#bonnes-pratiques-services-numeriques](https://ecoresponsable.numerique.gouv.fr/publications/bonnes-pratiques/bonnes-pratiques/#bonnes-pratiques-services-numeriques)
 
 La documentation sur le CloudPI (RIE) :[ https://pi.rie.interieur.gouv.fr/reseau-cas-dusage/](https://pi.rie.interieur.gouv.fr/reseau-cas-dusage/)
-
