@@ -22,12 +22,12 @@ Auteur : Ministère de l’Intérieur
 <br>  3.5. Des spécificités à prendre en compte sur la création des conteneurs
 <br>  3.6. Des spécificités à prendre en compte sur la topologie réseau et les ouvertures de flux
 <br>  3.7. Des spécificités à prendre en compte autour de la qualité et de la sécurité des applications
-<br>  8. Modèle d’intégration d’une application dans le cadre Cloud Native
+<br>  3.8. Modèle d’intégration d’une application dans le cadre Cloud Native
 <br>**4**. [**Présentation de l’offre inter-ministèrielle Cloud Pi Native et de ses évolutions pressenties**](#presentation-de-loffre-interministerielle-cloud-pi-native)
-<br>Les magasins de composants kubernetes et d’image de base
+<br>4.1 [Les magasins de composants kubernetes et d’image de base](#magasins-composants)
 <br>**5**. [**Référentiel d’exigences et modalités d'usage**](#referentiel-exigences)
 <br>**6**. [**Annexes**](#Annexes)
-<br>Les normes industrielles, institutionnelles applicables
+<br>[Les normes industrielles, institutionnelles applicables](#normes-industrielles)
 <br>Liens vers autres contenus utiles(informatif)
 <br>[Glossaire](cct-glossaire.md)
 
@@ -389,7 +389,7 @@ L’ensemble du code source de l’offre Cloud PI Native et sa documentation son
 
 Note : chaque région est autonome dans son fonctionnement. Seul le service de stockage objet de type S3 est accessible sur l’ensemble des régions ministérielles. ( réplication en proximité dans le datacenter).
 
-### Les magasins de composants kubernetes et d’image de base
+### <a name="magasins-composants">Les magasins de composants kubernetes et d’image de base</a>
 
 Associée avec l’offre Cloud pi Native, des magasins de composants kubenetes sont mis à disposition incrémentalement selon les besoins des applications cela inclut celui de l’éditeur RedHat. Le développeur peut dès aujourd’hui s’appuyer sur un catalogue porté par l’Insee autour de son produit Onyxia : <https://github.com/InseeFrLab/helm-charts>
 
@@ -431,7 +431,7 @@ Pour information les exigences sont organisées telles que décrites ci-dessous 
 ## <a name="Annexes">6 -  Annexes</a>
 
 
-### Les normes industrielles, institutionnelles applicables
+### <a name="normes-industrielles"> Les normes industrielles, institutionnelles applicables</a>
 
 La conception de système d’information dans le cadre de l’État est encadrée par un ensemble de recommandations ou règles à mettre en œuvre.  Ces normes sont citées ci-dessous. Le lecteur est invité à vérifier qu’il dispose des versions les plus à jour.
 
@@ -530,3 +530,4 @@ ArgoCD : <a href="https://argo-cd.readthedocs.io/en/stable/">https://argo-cd.rea
 [https://ecoresponsable.numerique.gouv.fr/publications/bonnes-pratiques/bonnes-pratiques/#bonnes-pratiques-services-numeriques](https://ecoresponsable.numerique.gouv.fr/publications/bonnes-pratiques/bonnes-pratiques/#bonnes-pratiques-services-numeriques)
 
 La documentation sur le CloudPI (RIE) :[ https://pi.rie.interieur.gouv.fr/reseau-cas-dusage/](https://pi.rie.interieur.gouv.fr/reseau-cas-dusage/)
+
