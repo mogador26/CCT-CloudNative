@@ -14,7 +14,7 @@ Auteur : Ministère de l’Intérieur
 
 <br>**1. Guide d’utilisation rapide**
 <br>**2**. [**Le contexte, les enjeux, la vision**](#contexte-enjeux-vision)
-<br>**3**. [**Principes généraux cadre Cloud Native**](#principes-généraux-cadre-cloud-native)
+<br>**3**. [**Principes généraux cadre Cloud Native**](#principes-generaux-cadre-cloud-native)
 <br>  3.1. Les configurations d’hébergement prises en compte
 <br>  3.2. Gestion des non-conformités, dérogations et contribution
 <br>  3.3. Le modèle organisationnel, de responsabilité et de collaboration Cloud Native
@@ -96,7 +96,7 @@ L’automatisation permet de  mieux contrôler et rendre les actions prédictibl
 
 In fine, la conception doit s’inscrire dans une démarche d’éco-conception et de sobriété numérique des conceptions (green IT)  permettant un usage plus efficient des ressources  qu’elles soient RH, financières. L’État devant être exemplaire. cf guide d’éco-conception.
 
-## <a name="principes-généraux-cadre-cloud-native"> 3 - Principes généraux cadre Cloud Native</a>
+## <a name="principes-generaux-cadre-cloud-native"> 3 - Principes généraux cadre Cloud Native</a>
 
 Audience : ce paragraphe s’adresse à la communauté des concepteurs et architectes solutions, le lecteur est réputé compétent et formé sur les sujets abordés .
 
@@ -368,8 +368,7 @@ Le schéma (indicatifs) précise l’architecture d’intégration d’une appli
 * (8) Kubernetes, sous la forme d’un ou plusieurs namespace(s) isolés ou couplés : fournis l’espace d’exécution de l’application et la gestion des volumes pour le stockage bloc.
 
 
-
-## 4 - Présentation de l’offre interMinistérielle Cloud Pi Native
+## <a name="presentation-de-loffre-interministerielle-cloud-pi-native"> 4- Présentation de l’offre inter-ministérielle Cloud Pi Native</a>
 
 L’offre Cloud PI native répond aux exigences du CCT à travers un ensemble organisationnel et technique. Elle propose une offre Cloud régalienne, souveraineté, sécurisée et isolée de toute problématique juridique extra-européenne. 
 
@@ -428,7 +427,7 @@ Pour information les exigences sont organisées telles que décrites ci-dessous 
 6. **Services mutualisés Applicatifs et d'Infrastructure :** exigences d’intégration aux services centralisés du Ministère de l’Intérieur, permettant une homogénéisation de la production, un meilleur contrôle et une maîtrise de la dette technique
 
 
-## <a name="Annexes">6 -  Annexes</a>
+## <a name="Annexes">6- Annexes</a>
 
 
 ### <a name="normes-industrielles"> Les normes industrielles, institutionnelles applicables</a>
