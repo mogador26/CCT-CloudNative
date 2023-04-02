@@ -12,9 +12,9 @@ Auteur : Ministère de l’Intérieur
 
 ## TABLE DES MATIÈRES
 
-<br>**1 - Guide d’utilisation rapide**
-<br>**2 - Le contexte, les enjeux, la vision**
-<br>**3 - Principes généraux cadre Cloud Native**
+<br>**1. Guide d’utilisation rapide**
+<br>**2**. [**Le contexte, les enjeux, la vision**](#contexte-enjeux-vision)
+<br>**3**. [**Principes généraux cadre Cloud Native**](#principes-généraux-cadre-cloud-native)
 <br>Les configurations d’hébergement prises en compte
 <br>Gestion des non-conformités, dérogations et contribution
 <br>Le modèle organisationnel, de responsabilité et de collaboration Cloud Native
@@ -23,15 +23,15 @@ Auteur : Ministère de l’Intérieur
 <br>Des spécificités à prendre en compte sur la topologie réseau et les ouvertures de flux
 <br>Des spécificités à prendre en compte autour de la qualité et de la sécurité des applications
 <br>Modèle d’intégration d’une application dans le cadre Cloud Native
-<br>**4 - Présentation de l’offre interMinistérielle Cloud Pi Native et de ses évolutions pressenties**
+<br>**4**. [**Présentation de l’offre inter-ministèrielle Cloud Pi Native et de ses évolutions pressenties**](#presentation-de-loffre-interministérielle-cloud-pi-native)
 <br>Les magasins de composants kubernetes et d’image de base
-<br>**5 - Référentiel d’exigences et modalités d'usage**
-<br>**6 -  Annexes**
+<br>**5**. [**Référentiel d’exigences et modalités d'usage**](#referentiel-exigences)
+<br>**6**. [**Annexes**](#Annexes)
 <br>Les normes industrielles, institutionnelles applicables
 <br>Liens vers autres contenus utiles(informatif)
 <br>Glossaire
 
-## 2 - Le contexte, les enjeux, la vision
+## <a name="contexte-enjeux-vision">**2**. Le contexte, les enjeux, la vision</a>
 
 **Audience : ce paragraphe s’adresse à tout acteur considérant l’usage de l’offre Cloud Pi Native du ministère de l’intérieur, il présente les principes fondateurs. Le cloud : des nouvelles possibilités techniques, une collaboration étendue des acteurs pour répondre aux enjeux d’un contexte exigeant, incertain et accéléré.**
 
@@ -42,12 +42,9 @@ Le Cloud est une approche d’accès à l’infrastructure d’hébergement à t
 
 La technologie Cloud Native fait référence à l’usage de Kubernetes. Kubernetes est une technologie issue des travaux des grands acteurs de l’Internet il y a plus de 15 ans pour rendre encore plus efficace et sécurisée l’usage des infrastructures techniques, la résilience des hébergements et apporter une souplesse organisationnelle accrue. Les grands services de l’internet s'appuient sur cette technologie, elle permettent une résilience extrême et permet d’absorber un trafic extrêmement important. 
 
-
 Les architectures des applications se simplifient avec une abstraction de plus en plus grande de l’infrastructure avec notamment la montée en puissance de services managés, fonctions-as-a-service dans l’objectif recherché de diminuer la quantité de code produite et l’objectif est de réduire charge des équipes intégrées de développement, déchargé de nombreuse problématique de gestion de l’’infrastructure de leur application.
 
-
 L’ensemble des organisations ayant mis en œuvre cette technologie telle que EDF, Orange, des services de vente en ligne, des Banques, Airbus, Urssaf, etc… ont vu également leurs efficiences de l’usage du numérique augmenter, il y a un _avant et un après_.
-
 
 Le ministère de l’intérieur, l’un des premiers acteurs étatiques à avoir proposé une offre Cloud il y a plus de 5 ans, étend son offre de service, en proposant l’offre Cloud Pi Native combinant une offre d'hébergement kubernetes sécurisée jusqu’au niveau DR. Cette offre est accompagnée d’un modèle DevSecOps outillé permettant une fluidité organisationnelle accrue et un renforcement de la qualité des solutions numériques.
 
@@ -99,14 +96,13 @@ L’automatisation permet de  mieux contrôler et rendre les actions prédictibl
 
 In fine, la conception doit s’inscrire dans une démarche d’éco-conception et de sobriété numérique des conceptions (green IT)  permettant un usage plus efficient des ressources  qu’elles soient RH, financières. L’État devant être exemplaire. cf guide d’éco-conception.
 
-## 3 - Principes généraux cadre Cloud Native
+## <a name="principes-généraux-cadre-cloud-native"> 3 - Principes généraux cadre Cloud Native</a>
 
 Audience : ce paragraphe s’adresse à la communauté des concepteurs et architectes solutions, le lecteur est réputé compétent et formé sur les sujets abordés .
 
 Le cadre de cohérence technique régule et normalise les différents domaines associés à l’élaboration et au maintien des ressources partagées nécessaires à la mise à disposition de solutions numériques de qualité répondant au besoin. Il s’assure que l’ensemble peut-être mis en œuvre de manière cohérente avec une consommation minimisée des ressources : financière, RH et écologique. Il recommande ou fixe les mesures permettant d’atteindre l’objectif, tout en favorisant l’innovation, la prise en compte de l’obsolescence régulière des technologies et la manœuvre RH nécessaire (formation continue, recrutement …)
 
-
-Le volet Cloud Native du ministère de l’intérieur, hérite de normes industrielles, inter-ministérielles, européennes. La portée est interMinistérielle, ce document a fait l’objet d’échanges avec la direction interMinistérielle du numérique et des ministères primo-accédants.
+Le volet Cloud Native du ministère de l’intérieur, hérite de normes industrielles, interMinistérielles, européennes. La portée est interMinistérielle, ce document a fait l’objet d’échanges avec la direction interMinistérielle du numérique et des ministères primo-accédants.
 
 Pour le ministère de l'intérieur, il encadre la conception et l’hébergement d’applications qu’elles soient hébergées dans les datacenters du ministère ou bien à l’externe sur des clouds public. Ce volet s’applique notamment lors de la conception d’une nouvelle application ou une évolution significative d’une application existante. (cf Doctrine Cloud au centre)
 
@@ -120,11 +116,11 @@ D’autres référentiels d’exigences ou des guides peuvent être applicables 
 
 Concerne la description de l’offre de service managé d’infrastructure Cloud **π** et d’une chaîne DevSecOps assurant l’homologation en continu et le déploiement en production. Cf. présentation de l’offre plus loin dans ce document.
 
-**Poste de travail agent : **
+**Poste de travail agent :**
 
 Dans le cadre d’une application rendue accessible sur le poste de travail de l’agent, le lecteur est invité à se conformer également au volet _Environnement Numérique de Travail_, notamment sur les aspects d’intégration au SSO et la politique des navigateurs.
 
-**Ouverture des données : **
+**Ouverture des données :**
 
 Sur la thématique de l’ouverture et de la circulation de la donnée, le projet est invité à se mettre en conformité avec le volet idoine. Cela concerne notamment le référencement des objets métiers dans le référentiel de cartographie des données et la mise à disposition d’une facilité technique d’accès à la donnée basée sur un standard d’échange de type API.
 
@@ -138,7 +134,7 @@ Le ministère de l’intérieur dispose de plusieurs capacité d’hébergement 
 Les offres centrales sont découpées en plusieurs catégories  :
 
 * **Physique ou virtualisées** généralement de type VMWAre tel qu’Isocèle ( DNUM), STIG (STSI2). Cette offre est accessible qu’au MIOM et seul l’exploitant gère la plateforme et les actes d’intervention techniques via Ticketing ITMS
-* **Offre Cloud Pi**[^1]** ‘legacy”** : offre Iaas basée sur OpenSack, actuellement en bascule vers Gen2. La gestion interne des ‘tenants’ est à la main du développeur, le reste via ticketing. Le développeur gère son outillage en autonomie
+* **Offre Cloud Pi**[^1]**‘legacy”** : offre Iaas basée sur OpenSack, actuellement en bascule vers Gen2. La gestion interne des ‘tenants’ est à la main du développeur, le reste via ticketing. Le développeur gère son outillage en autonomie
 
 
 * **Offre Cloud Pi Native** ( objet de ce volet de CCT ) :  nouvelle offre associant une homologation continue, un socle d’homologation et un hébergement étatique sur kubernetes avec une ouverture ‘accéléré’ des flux réseau.
@@ -165,7 +161,7 @@ L’architecture, le modèle de responsabilité et d’organisation à mettre en
 
 **L’élargissement de la responsabilité du développeur**
 
-La responsabilité du développeur est élargie dans le cadre Cloud Native. Il élabore et exploite une solution qui répond au besoin métier généralement une automatisation d’un ou plusieurs processus métiers . Le développeur s'assure de la qualité et de la disponibilité du service rendu à l’usager selon le précepte : **« You build it, you run it »**. Il s’organise en équipe intégrée, si nécessaire avec de l’externalisation.
+La responsabilité du développeur est élargie dans le cadre Cloud Native. Il élabore et exploite une solution qui répond au besoin métier généralement une automatisation d’un ou plusieurs processus métiers . Le développeur s'assure de la qualité et de la disponibilité du service rendu à l’usager selon le précepte : « You build it, you run it ». Il s’organise en équipe intégrée, si nécessaire avec de l’externalisation.
 
 Le développeur met à disposition d’un point de vérité du code sous la forme d’un ou plusieurs dépôts de code logiciel fonctionnel et d’infrastructure. Il met en place un flux intégré et continu de production en s'appuyant sur un orchestrateur primaire DevSecOps qu’il construit et opère. 
 
@@ -280,6 +276,8 @@ Des pratiques complémentaires sont introduites dans la configuration Cloud Nati
 * **[6]** : Le développeur accède à un proxy d’observation du fonctionnement de l’application
 * Note : Les développeurs n'accèdent pas directement à la production. Seuls les administrateurs habilités peuvent y avoir accès via bastion.
 
+
+
 ### Préconisations générales d’architecture et technique
 
 Ce chapitre précise les aspects importants liés à l’usage de kubernetes dans le cadre du ministère de l’intérieur. Il est attendu que les acteurs soient correctement formés à la solution kubernetes et se maintiennent à jour. La technologie évoluant rapidement. 	
@@ -370,8 +368,6 @@ Le schéma (indicatifs) précise l’architecture d’intégration d’une appli
 * (8) Kubernetes, sous la forme d’un ou plusieurs namespace(s) isolés ou couplés : fournis l’espace d’exécution de l’application et la gestion des volumes pour le stockage bloc.
 
 
-##
-
 
 ## 4 - Présentation de l’offre interMinistérielle Cloud Pi Native
 
@@ -405,14 +401,13 @@ Sur les besoins "classiques" de persistance : postgres, redis, mariadb, mongodb,
 
 Sur le cluster de production les operators sont déployés par l’hébergeur car généralement ils requièrent les droits globaux. L’équipe projet doit vérifier les versions disponibles lors de la conception de son projet.
 
-##
 
-## 5 - Référentiel d’exigences et modalités d'usage
+## <a name="#referentiel-exigences"> 5 - Référentiel d’exigences et modalités d'usage</a>
 
 Les exigences du CCT sont classées en 2 niveaux d’exigence (périmètre du Ministère de l’Intérieur) :
 
-* Primordial : L’exigence est impérative et traitée administrativement.
-* I – Important : Exigence prise en compte pour la notation technique de la solution
+* **P - Primordial** : L’exigence est impérative et traitée administrativement.
+* **I - Important** : Exigence prise en compte pour la notation technique de la solution
 
 Précisions sur le cas de l’exclusion administrative (périmètre du Ministère de l’Intérieur) :
 
@@ -433,7 +428,7 @@ Pour information les exigences sont organisées telles que décrites ci-dessous 
 6. **Services mutualisés Applicatifs et d'Infrastructure :** exigences d’intégration aux services centralisés du Ministère de l’Intérieur, permettant une homogénéisation de la production, un meilleur contrôle et une maîtrise de la dette technique
 
 
-## 6 -  Annexes
+## <a name="Annexes">6 -  Annexes</a>
 
 
 ### Les normes industrielles, institutionnelles applicables
@@ -542,4 +537,5 @@ ArgoCD : <a href="https://argo-cd.readthedocs.io/en/stable/">https://argo-cd.rea
 
 [https://ecoresponsable.numerique.gouv.fr/publications/bonnes-pratiques/bonnes-pratiques/#bonnes-pratiques-services-numeriques](https://ecoresponsable.numerique.gouv.fr/publications/bonnes-pratiques/bonnes-pratiques/#bonnes-pratiques-services-numeriques)
 
-La documentation sur le CloudPI (RIE) :[ https://pi.minint.fr/reseau-cas-dusage/](https://pi.interieur.gouv.fr/reseau-cas-dusage/)
+La documentation sur le CloudPI (RIE) :[ https://pi.rie.interieur.gouv.fr/reseau-cas-dusage/](https://pi.rie.interieur.gouv.fr/reseau-cas-dusage/)
+
