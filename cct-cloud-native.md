@@ -400,7 +400,7 @@ Sur les besoins "classiques" de persistance : postgres, redis, mariadb, mongodb,
 
 Sur le cluster de production les operators sont déployés par l’hébergeur car généralement ils requièrent les droits globaux. L’équipe projet doit vérifier les versions disponibles lors de la conception de son projet.
 
-## <a name="#referentiel-exigences"> 5 - Référentiel d’exigences et modalités d'usage</a>
+## <a name="referentiel-exigences">5- Référentiel d’exigences et modalités d'usage</a>
 
 Les exigences du CCT sont classées en 2 niveaux d’exigence (périmètre du Ministère de l’Intérieur) :
 
