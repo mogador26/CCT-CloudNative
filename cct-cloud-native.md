@@ -15,14 +15,14 @@ Auteur : Ministère de l’Intérieur
 <br>**1. Guide d’utilisation rapide**
 <br>**2**. [**Le contexte, les enjeux, la vision**](#contexte-enjeux-vision)
 <br>**3**. [**Principes généraux cadre Cloud Native**](#principes-generaux-cadre-cloud-native)
-<br>  3.1. Les configurations d’hébergement prises en compte
-<br>  3.2. Gestion des non-conformités, dérogations et contribution
-<br>  3.3. Le modèle organisationnel, de responsabilité et de collaboration Cloud Native
-<br>  3.4. Préconisations générales d’architecture et technique
-<br>  3.5. Des spécificités à prendre en compte sur la création des conteneurs
-<br>  3.6. Des spécificités à prendre en compte sur la topologie réseau et les ouvertures de flux
-<br>  3.7. Des spécificités à prendre en compte autour de la qualité et de la sécurité des applications
-<br>  3.8. Modèle d’intégration d’une application dans le cadre Cloud Native
+<br>  Les configurations d’hébergement prises en compte
+<br>  Gestion des non-conformités, dérogations et contribution
+<br>  Le modèle organisationnel, de responsabilité et de collaboration Cloud Native
+<br>  Préconisations générales d’architecture et technique
+<br>  Des spécificités à prendre en compte sur la création des conteneurs
+<br>  Des spécificités à prendre en compte sur la topologie réseau et les ouvertures de flux
+<br>  Des spécificités à prendre en compte autour de la qualité et de la sécurité des applications
+<br>  Modèle d’intégration d’une application dans le cadre Cloud Native
 <br>**4**. [**Présentation de l’offre inter-ministèrielle Cloud Pi Native et de ses évolutions pressenties**](#presentation-de-loffre-interministerielle-cloud-pi-native)
 <br>[Les magasins de composants kubernetes et d’image de base](#magasins-composants)
 <br>**5**. [**Référentiel d’exigences et modalités d'usage**](#referentiel-exigences)
@@ -134,7 +134,7 @@ Le ministère de l’intérieur dispose de plusieurs capacité d’hébergement 
 Les offres centrales sont découpées en plusieurs catégories  :
 
 * **Physique ou virtualisées** généralement de type VMWAre tel qu’Isocèle ( DNUM), STIG (STSI2). Cette offre est accessible qu’au MIOM et seul l’exploitant gère la plateforme et les actes d’intervention techniques via Ticketing ITMS
-* **Offre Cloud Pi**[^1]**‘legacy”** : offre Iaas basée sur OpenSack, actuellement en bascule vers Gen2. La gestion interne des ‘tenants’ est à la main du développeur, le reste via ticketing. Le développeur gère son outillage en autonomie
+* **Offre Cloud Pi "legacy"** : offre Iaas basée sur OpenSack, actuellement en bascule vers Gen2. La gestion interne des ‘tenants’ est à la main du développeur, le reste via ticketing. Le développeur gère son outillage en autonomie
 
 
 * **Offre Cloud Pi Native** ( objet de ce volet de CCT ) :  nouvelle offre associant une homologation continue, un socle d’homologation et un hébergement étatique sur kubernetes avec une ouverture ‘accéléré’ des flux réseau.
@@ -218,7 +218,7 @@ L’équipe projet met en oeuvre une activité continue de refactoring du code p
 **Elle fournit les preuves** que des tests de sécurité, de qualité, de robustesse des algorithmes ont été mis en œuvre, et qu'ils n'ont pas remonté de vulnérabilités ou d'erreurs majeures. En s’appuyant notamment sur les logs des analyses des outils de la chaîne primaire. Elle fournit la preuve (ex: le document) des normes de développement et pratiques permettant de maîtriser la qualité du code produit. ( refactoring, peer review, etc.. )
  
 
-**L’exploitant ministériel de l’orchestrateur DevSevOps** :
+**L’exploitant ministériel de l’orchestrateur DevSecOps** :
 
 Il assure la gouvernance et la cohérence structurelle de l'ensemble des régions de cloud PI. Il associe à ce titre dans ses décisions des représentants de l'ensemble des opérateurs cloud.
 
