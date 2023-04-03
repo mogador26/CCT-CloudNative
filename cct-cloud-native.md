@@ -437,9 +437,9 @@ La conception de système d’information dans le cadre de l’État est encadr�
 |Guides & outils pour la conception| **Design System FR**. Le système de design de l’État ( qui intègre le RGAA ) : https://www.systeme-de-design.gouv.fr/ <br> **Guide d’éco conception** : https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception |
 |Divers guides de conceptions logiciels| https://guides.etalab.gouv.fr/accueil.html<br>https://catalogue.numerique.gouv.fr<br>https://schema.gouv.fr<br>https://code.gouv.fr<br>|
 |Cadres de pratiques de conception et de conduite de projet agile|https://www.numerique.gouv.fr/actualites/guide-pour-allier-agilite-et-securite-numeriques/
-|Logiciel libre| Socle inter-ministériel des Logiciels Libres ( SILL) de par sa fonction de source pour le référentiel de produits du CCT Ministériel : https://sill.etalab.gouv.fr/fr/software">https://sill.etalab.gouv.fr/fr/software|
+|Logiciel libre| Socle inter-ministériel des Logiciels Libres ( SILL) de par sa fonction de source pour le référentiel de produits du CCT Ministériel : https://sill.etalab.gouv.fr/fr/software|
 |Normes inter-ministérielles de conception de solutions|**Doctrine cloud de l’état** :https://www.legifrance.gouv.fr/circulaire/id/45205<br>Référentiel Général d’Accessibilité pour les Administrations :https://accessibilite.numerique.gouv.fr/|https://www.ssi.gouv.fr/entreprise/reglementation/confiance-numerique/liste-des-documents-constitutifs-du-rgs-v-2-0/|
-|Référentiel Général de Gestion des Archives|https://www.ssi.gouv.fr/entreprise/reglementation/confiance-numerique/le-reglement-eidas/|
+|Référentiel Général de Sécurité, en association avec le règlement européen et l’EIDAS.|https://www.ssi.gouv.fr/entreprise/reglementation/confiance-numerique/le-reglement-eidas/|
 |Référentiel Général de Gestion des Archives|https://francearchives.fr/fr/circulaire/R2GA_2013_10|
 
 
