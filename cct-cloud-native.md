@@ -15,14 +15,14 @@ Auteur : Ministère de l’Intérieur
 <br>**1. Guide d’utilisation rapide**
 <br>**2**. [**Le contexte, les enjeux, la vision**](#contexte-enjeux-vision)
 <br>**3**. [**Principes généraux cadre Cloud Native**](#principes-generaux-cadre-cloud-native)
-<br>  Les configurations d’hébergement prises en compte
-<br>  Gestion des non-conformités, dérogations et contribution
-<br>  Le modèle organisationnel, de responsabilité et de collaboration Cloud Native
-<br>  Préconisations générales d’architecture et technique
-<br>  Des spécificités à prendre en compte sur la création des conteneurs
-<br>  Des spécificités à prendre en compte sur la topologie réseau et les ouvertures de flux
-<br>  Des spécificités à prendre en compte autour de la qualité et de la sécurité des applications
-<br>  Modèle d’intégration d’une application dans le cadre Cloud Native
+<br>  [Les configurations d’hébergement prises en compte](#configuration-hebergement)
+<br>  [Gestion des non-conformités, dérogations et contribution](#gestion-non-conformite)
+<br>  [Le modèle organisationnel, de responsabilité et de collaboration Cloud Native](#modele-organisationnel-responsabilite)
+<br>  [Préconisations générales d’architecture et technique](#preconisations-architecture)
+<br>  [Des spécificités à prendre en compte sur la création des conteneurs](#specificites-creation-conteneurs)
+<br>  [Des spécificités à prendre en compte sur la topologie réseau et les ouvertures de flux](#specificites-flux)
+<br>  [Des spécificités à prendre en compte autour de la qualité et de la sécurité des applications](#specificites-qualite-securite)
+<br>  [Modèle d’intégration d’une application dans le cadre Cloud Native](#modele-integration-cloud-native)
 <br>**4**. [**Présentation de l’offre inter-ministèrielle Cloud Pi Native et de ses évolutions pressenties**](#presentation-de-loffre-interministerielle-cloud-pi-native)
 <br>[Les magasins de composants kubernetes et d’image de base](#magasins-composants)
 <br>**5**. [**Référentiel d’exigences et modalités d'usage**](#referentiel-exigences)
@@ -127,7 +127,7 @@ Sur la thématique de l’ouverture et de la circulation de la donnée, le proje
 L’ensemble des acteurs de l’État est invité à faire circuler la donnée au profit d’une simplification du fonctionnement des administrations et d’un service public ergonomique et proactif .  (cf rapport Bothorel, lois CRPA et 3DS, … )
 
 
-### Les configurations d’hébergement prises en compte
+### <a name="configuration-hebergement">Les configurations d’hébergement prises en compte</a>
 
 Le ministère de l’intérieur dispose de plusieurs capacité d’hébergement d’application. Ces offres peuvent être historiques et liées à une entité  (ex: Sgami, ANTS)  ou centrales.
 
@@ -147,7 +147,7 @@ Les configurations suivantes sont prises en compte par ce volet Cloud (Pi) Nativ
 
 Pour l’ensemble de ces configurations l’usage de la chaîne DevSecOps managée par le Ministère de l’Intérieur est impératif. (hors cadre dérogatoire accordée) 
 
-### Gestion des non-conformités, dérogations et contribution
+### <a name="gestion-non-conformite">Gestion des non-conformités, dérogations et contribution</a>
 
 L’évolution rapide des technologies cloud peut conduire à ce que le cadre CCT restreigne l’innovation. Il est également souhaité, pour éprouver le modèle, de notifier le département architecture d'entreprise du Ministère de l'intérieur au plus tôt des éventuelles impossibilités ou limitations remarquées. Les directions d’applications ou les organisations utilisatrices peuvent contribuer, via un échange préalable, à enrichir les fonctionnalités de l’offre ou du cadre lui-même. Sur l’offre la contribution est effectuée directement sur le repository open source de la solution via un pull request.
 
@@ -155,7 +155,7 @@ En cas de non-conformité au CCT ou absence de contribution à l’offre, une de
 
 Lors de l’utilisation du cadre et de l’offre Cloud PI Native, toute organisation souhaitant décliner ce cadre dans un document de norme inférieur pour un besoin propre est invitée à référencer la dernière version de ce document en l’état.  Dans la hiérarchie des normes, une instruction de niveau inférieur ne peut entrer en conflit ou contredire ce présent document.
 
-### Le modèle organisationnel, de responsabilité et de collaboration Cloud Native
+### <a name="modele-organisationnel-responsabilite"> Le modèle organisationnel, de responsabilité et de collaboration Cloud Native</a>
 
 L’architecture, le modèle de responsabilité et d’organisation à mettre en place est orienté pour maximiser la qualité, la sécurité, la fluidité opérationnelle et l’évolutivité du produit en  tirant parti au maximum des possibilités offertes par la technologie kubernetes, un flux de production DevSecOps et une collaboration étendue entre les acteurs.
 
@@ -278,7 +278,7 @@ Des pratiques complémentaires sont introduites dans la configuration Cloud Nati
 
 
 
-### Préconisations générales d’architecture et technique
+### <a name="preconisations-architecture">Préconisations générales d’architecture et technique</a>
 
 Ce chapitre précise les aspects importants liés à l’usage de kubernetes dans le cadre du ministère de l’intérieur. Il est attendu que les acteurs soient correctement formés à la solution kubernetes et se maintiennent à jour. La technologie évoluant rapidement. 	
 
@@ -299,7 +299,7 @@ Les développeurs n’accèdent pas directement à la plateforme ; cet accès s�
 Pour information : des tests de compatibilité avec d’autres solutions d’hébergement d’acteurs du cloud public ont été menés avec succès.
 
 
-### Des spécificités à prendre en compte sur la création des conteneurs
+### <a name="specificites-creation-conteneurs">Des spécificités à prendre en compte sur la création des conteneurs</a>
 
 Kubernetes impose une rigueur un peu plus élevée à l’initialisation que d’autres solutions.
 
@@ -316,14 +316,14 @@ Les pods sont responsables de vérifier au lancement, si l’application est dan
 L’architecture de l’application, hors persistance de données, est conçue pour être complètement stateless, c'est-à-dire, sans aucune persistance de sessions, états et liens, les pods peuvent être basculés à la volée d’un nœud à un autre sans préavis.
 
 
-### Des spécificités à prendre en compte sur la topologie réseau et les ouvertures de flux
+### <a name="specificites-flux">Des spécificités à prendre en compte sur la topologie réseau et les ouvertures de flux</a>
 
 L’organisation de réseau est segmenté par type de service porté par le flux. L’organisation de réseau est segmenté par type de service porté par le flux. ( flux usagers, interdatacenters, interapplicatifs )
 L'ouverture automatique des segments réseau est propre à chaque opérateur cloud. L'ouverture manuelle de ces segments doit répondre à la politique de l'opérateur et être exécutée ou rejetée sous garantie d'un délai maximum (5 jours par exemple).
 
-### Des spécificités à prendre en compte autour de la qualité et de la sécurité des applications
+### <a name="specificites-qualite-securite"> Des spécificités à prendre en compte autour de la qualité et de la sécurité des applications</a>
 
-L’objectif d’ensemble est de s’assurer que le code produit est de qualité constante ou accrue, exempt de vulnérabilités algorithmiques ou importées néfastes. 
+L’objectif d’ensemble est de s’assurer que le code produit est de qualité constante ou accrue, exempt de vulnérabilités algorithmiques ou importées néfastes.
 
 Pour atteindre ces objectifs plusieurs mécanismes doivent être mis en place par l’équipe de développement intégrée :
 
@@ -342,7 +342,7 @@ L’équipe de développement reçoit via l’interface “shift left” une not
 
 **L’équipe projet est invitée à mener une activité constante de refactoring du code produit.**
 
-### Modèle d’intégration d’une application dans le cadre Cloud Native
+### <a name="modele-integration-cloud-native"> Modèle d’intégration d’une application dans le cadre Cloud Native </a>
 
 Le schéma ci-dessous précise le cadre général d’intégration d’une application. Des variantes sont possibles entre les ministères, elles sont précisées directement auprès des équipes concernées. Le respect de cadre permet à la direction d’application d’accéder à un socle de sécurité accélérant les homologations, l’ouverture automatique des segments réseau et l’homologation en continu.
 
